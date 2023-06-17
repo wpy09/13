@@ -1,0 +1,39 @@
+@import url("style2.css");
+.box1 {
+	height: 300px;
+	background-color: #F1BEBF;
+	margin: 5px;
+	flex: 1;
+	border-radius: 5px;
+}
+.box2 {
+	height: 300px;
+	background-color: #BEF8B1;
+	margin: 5px;
+	flex: 2;
+	border-radius: 5px;
+}
+.box3 {
+	height: 300px;
+	background-color: #AADEFF;
+	margin: 5px;
+	flex: 1;
+	border-radius: 5px;
+	}
+.container {
+	display: flex;
+	margin: 5px;
+	flex-wrap: wrap;}
+.container .box1 img {
+	margin-left: 155px;
+	margin-bottom: -150px;
+
+}
+.container .box2 img {
+	margin-left: 350px;
+	margin-bottom: -150px;
+}
+.container .box3 img {
+	margin-left: 155px;
+	margin-bottom: -150px;
+}
